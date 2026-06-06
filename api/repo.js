@@ -4,8 +4,8 @@ const crypto = require('crypto');
 
 const ACCESS_KEY = process.env.ACCESS_KEY || 'j-41-183-184';
 const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
-const REPO_OWNER = process.env.REPO_OWNER || 'dot-666';
-const REPO_NAME = process.env.REPO_NAME || 'June-X-Ultra';
+const REPO_OWNER = process.env.REPO_OWNER || 'kandala20';
+const REPO_NAME = process.env.REPO_NAME || 'KANDALA-XMD2';
 const BRANCH = process.env.REPO_BRANCH || 'main';
 const ALLOWED_IPS = process.env.ALLOWED_IPS?.split(',') ?? [];
 
